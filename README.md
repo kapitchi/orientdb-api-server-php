@@ -14,7 +14,7 @@ Implementation of OAuth2 server with 2 and 3-legged authorization.
 https://github.com/bshaffer/oauth2-server-php
 
 
-Connection to OrientDB is made on behalf of authenticated user.
+_Connection to OrientDB is made on behalf of OAuth authenticated user so standard OrientDB security features (e.g. record level security) can be used._
 
 TODO
 
